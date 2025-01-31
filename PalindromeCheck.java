@@ -8,7 +8,7 @@ public class PalindromeCheck {
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
 
-        // Check if the string is a palindrome
+        
         if (isPalindrome(input)) {
             System.out.println("The string is a palindrome.");
         } else {
@@ -18,15 +18,15 @@ public class PalindromeCheck {
         scanner.close();
     }
 
-    // Method to check if a string is a palindrome
+    
     public static boolean isPalindrome(String str) {
-        // Remove spaces and convert to lowercase for case-insensitive comparison
+       
         str = str.replaceAll("\\s", "").toLowerCase();
 
         int left = 0;
         int right = str.length() - 1;
 
-        // Compare characters from the start and end moving towards the center
+        
         while (left < right) {
             if (str.charAt(left) != str.charAt(right)) {
                 return false; // Characters don't match
@@ -34,6 +34,6 @@ public class PalindromeCheck {
             left++;
             right--;
         }
-        return true; // All characters matched
+        return true; 
     }
 }
