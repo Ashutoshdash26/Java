@@ -4,7 +4,7 @@ public class PalindromeCheck {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Input from the user
+        
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
 
