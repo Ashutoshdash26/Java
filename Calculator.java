@@ -7,21 +7,21 @@ public class Calculator {
         System.out.println("Welcome to the Simple Calculator!");
         System.out.println("Available operations: +, -, *, /");
 
-        // Input first number
+        // Input 
         System.out.print("Enter the first number: ");
         double num1 = scanner.nextDouble();
 
-        // Input operation
+        // Input 
         System.out.print("Enter the operation (+, -, *, /): ");
         char operation = scanner.next().charAt(0);
 
-        // Input second number
+        // Input 
         System.out.print("Enter the second number: ");
         double num2 = scanner.nextDouble();
 
         double result = 0;
 
-        // Perform calculation based on the operation
+        //  calculation
         switch (operation) {
             case '+':
                 result = num1 + num2;
@@ -45,7 +45,7 @@ public class Calculator {
                 return; // Exit the program
         }
 
-        // Display the result
+        // Display 
         System.out.println("Result: " + result);
 
         scanner.close();
