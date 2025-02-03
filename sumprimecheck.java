@@ -15,7 +15,7 @@ public class sumprimecheck {
         sc.close();
     }
 
-    // Method to check if a number is prime
+    //  check if a number is prime
     public static boolean isPrime(int n) {
         if (n <= 1) {
             return false; // 0 and 1 are not prime numbers
