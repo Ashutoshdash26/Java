@@ -6,15 +6,15 @@ public class HollowBoxPattern {
         System.out.print("Enter the size of the box: ");
         int n = s.nextInt();
 
-        for (int i = 0; i < n; i++) {  // Loop for rows
-            for (int j = 0; j < n; j++) {  // Loop for columns
+        for (int i = 0; i < n; i++) {  
+            for (int j = 0; j < n; j++) {  
                 if (i == 0 || i == n - 1 || j == 0 || j == n - 1) {
-                    System.out.print("* ");  // Print '*' for borders
+                    System.out.print("* ");  
                 } else {
-                    System.out.print("  ");  // Print space inside
+                    System.out.print("  "); 
                 }
             }
-            System.out.println();  // Move to next line
+            System.out.println();  
         }
         s.close();
     }
