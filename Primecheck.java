@@ -14,17 +14,17 @@ public class Primecheck {
         sc.close();
     }
 
-    // check if a number is prime
+    
     public static boolean isPrime(int n) {
         if (n <= 1) {
-            return false; // 0 and 1 are not prime numbers
+            return false; 
         }
-        for (int i = 2; i <= Math.sqrt(n); i++) { // Check up to the square root of n
+        for (int i = 2; i <= Math.sqrt(n); i++) { 
             if (n % i == 0) {
-                return false; // If divisible, it's not prime
+                return false; 
             }
         }
-        return true; // If no divisors found, it's prime
+        return true; 
     }
 }
 
