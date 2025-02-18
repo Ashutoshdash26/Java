@@ -7,7 +7,7 @@ public class TemperatureConverter {
         System.out.println("Welcome to the Temperature Converter!");
         System.out.println("Available units: Celsius (C), Fahrenheit (F), Kelvin (K)");
 
-        // Input temperature 
+        
         System.out.print("Enter the temperature value: ");
         double temperature = scanner.nextDouble();
 
