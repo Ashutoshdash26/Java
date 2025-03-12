@@ -14,7 +14,7 @@ public class TemperatureConverter {
         System.out.print("Enter the original unit (C, F, K): ");
         char originalUnit = scanner.next().toUpperCase().charAt(0);
 
-        // Input target unit
+        
         System.out.print("Enter the target unit (C, F, K): ");
         char targetUnit = scanner.next().toUpperCase().charAt(0);
 
