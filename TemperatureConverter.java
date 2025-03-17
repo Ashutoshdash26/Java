@@ -36,7 +36,6 @@ public class TemperatureConverter {
                 return; // Exit the program
         }
 
-        // Display the converted temperature
         System.out.println("Converted Temperature: " + convertedTemperature + " " + targetUnit);
 
         scanner.close();
