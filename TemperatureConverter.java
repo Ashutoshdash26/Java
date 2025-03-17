@@ -20,7 +20,7 @@ public class TemperatureConverter {
 
         double convertedTemperature = 0;
 
-        // Convert temperature based on original and target units
+        
         switch (originalUnit) {
             case 'C':
                 convertedTemperature = convertFromCelsius(temperature, targetUnit);
