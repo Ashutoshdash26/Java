@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class construct{
-   int a,b,c;
+   int a,b,c,nn;
 
    construct(){
     this.a=10;
@@ -10,6 +10,9 @@ class construct{
    }
    construct(int m){
       a=m;
+   }
+   construct(construct obj){
+      nn=obj.a;
    }
 }
 public class constructor {
@@ -32,6 +35,8 @@ public class constructor {
           int m=ss.nextInt();
           construct obj2=new construct(m);
           System.out.println(obj2.a+m);
+          construct obj3=new construct(obj2);
+          System.out.println(obj3.nn);
 
     }
 }
