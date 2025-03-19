@@ -29,7 +29,7 @@ public class PalindromeCheck {
         
         while (left < right) {
             if (str.charAt(left) != str.charAt(right)) {
-                return false; // Characters don't match
+                return false; 
             }
             left++;
             right--;
