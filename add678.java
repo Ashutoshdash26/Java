@@ -1,6 +1,6 @@
 public class add678 {
     public static void main(String[] args){
-       for(int i=1;i<500;i+=2){
+       for(int i=1;i<5000;i+=2){
         int k=1;
         //System.out.println(i);
         k=i;
@@ -12,7 +12,7 @@ public class add678 {
              
              lol=lol+m;
 
-            if(m==0){
+            if(m%2==0){
                 jjh=0;
                 break;
             }
