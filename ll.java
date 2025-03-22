@@ -2,7 +2,7 @@ public class ll {
     public static void main(String[] args) {
         for (int i = 1; i < 5000; i += 2) { 
             int k = i;
-            int sumOfDigits = 0; // To store the sum of all digits
+            int sumOfDigits = 0; 
             boolean allDigitsOdd = true; // Assume all digits are odd initially
 
             while (k > 0) {
