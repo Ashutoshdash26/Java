@@ -5,7 +5,7 @@ public class arrayadd {
         Scanner ss=new Scanner(System.in);
         int s=ss.nextInt();
         int arr[]=new int[s];
-        System.out.println("Enter the elements ")
+        System.out.println("Enter the elements ");
         for(int i=0;i<s;i++){
             arr[i]=ss.nextInt();
         }
@@ -14,6 +14,14 @@ public class arrayadd {
         }
         System.out.println("Enter the index you want to delete ");
         int km=ss.nextInt();
+        for(int i=0;i<s-1;i++){
+            if(i>=km-1){
+                arr[i]=arr[i+1];
+            }
+        }
+        for(int i=0;i<s;i++){
+            System.out.println(arr[i]);
+        }
 
     }
 }
