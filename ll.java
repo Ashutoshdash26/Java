@@ -1,6 +1,6 @@
 public class ll {
     public static void main(String[] args) {
-        for (int i = 1; i < 5000; i += 2) { // Iterate through odd numbers only
+        for (int i = 1; i < 5000; i += 2) { 
             int k = i;
             int sumOfDigits = 0; // To store the sum of all digits
             boolean allDigitsOdd = true; // Assume all digits are odd initially
