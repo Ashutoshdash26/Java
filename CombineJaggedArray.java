@@ -4,7 +4,7 @@ public class CombineJaggedArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Input first jagged array
+      
         System.out.print("Enter the number of rows for the first jagged array: ");
         int rows1 = scanner.nextInt();
         int[][] jaggedArray1 = inputJaggedArray(scanner, rows1, "First");
