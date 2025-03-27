@@ -9,7 +9,7 @@ public class CombineJaggedArray {
         int rows1 = scanner.nextInt();
         int[][] jaggedArray1 = inputJaggedArray(scanner, rows1, "First");
 
-        // Input second jagged array
+       
         System.out.print("\nEnter the number of rows for the second jagged array: ");
         int rows2 = scanner.nextInt();
         int[][] jaggedArray2 = inputJaggedArray(scanner, rows2, "Second");
