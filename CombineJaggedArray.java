@@ -14,7 +14,7 @@ public class CombineJaggedArray {
         int rows2 = scanner.nextInt();
         int[][] jaggedArray2 = inputJaggedArray(scanner, rows2, "Second");
 
-        // Combine the two jagged arrays
+       
         int[][] combinedJaggedArray = new int[rows1 + rows2][];
 
         // Copy elements from first array
