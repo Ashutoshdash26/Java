@@ -51,7 +51,7 @@ public class CombineJaggedArray {
         return jaggedArray;
     }
 
-    // Function to display a jagged array
+    
     public static void displayJaggedArray(int[][] jaggedArray) {
         for (int[] row : jaggedArray) {
             for (int num : row) {
