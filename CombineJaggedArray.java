@@ -57,7 +57,7 @@ public class CombineJaggedArray {
             for (int num : row) {
                 System.out.print(num + " ");
             }
-            System.out.println(); // Move to next line
+            System.out.println(); 
         }
     }
 }
