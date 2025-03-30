@@ -17,7 +17,7 @@ public class CombineJaggedArray {
        
         int[][] combinedJaggedArray = new int[rows1 + rows2][];
 
-        // Copy elements from first array
+        
         for (int i = 0; i < rows1; i++) {
             combinedJaggedArray[i] = jaggedArray1[i];
         }
