@@ -34,7 +34,7 @@ public class CombineJaggedArray {
         scanner.close();
     }
 
-    // Function to take user input for a jagged array
+    
     public static int[][] inputJaggedArray(Scanner scanner, int rows, String arrayName) {
         int[][] jaggedArray = new int[rows][];
         
