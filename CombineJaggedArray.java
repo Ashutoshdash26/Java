@@ -22,7 +22,7 @@ public class CombineJaggedArray {
             combinedJaggedArray[i] = jaggedArray1[i];
         }
 
-        // Copy elements from second array
+        
         for (int i = 0; i < rows2; i++) {
             combinedJaggedArray[rows1 + i] = jaggedArray2[i];
         }
