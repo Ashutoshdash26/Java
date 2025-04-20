@@ -27,7 +27,7 @@ public class CombineJaggedArray {
             combinedJaggedArray[rows1 + i] = jaggedArray2[i];
         }
 
-        // Display the combined jagged array
+        
         System.out.println("\nCombined Jagged Array:");
         displayJaggedArray(combinedJaggedArray);
 
