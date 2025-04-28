@@ -13,7 +13,10 @@ interface in {
 }
 
 class inter implements in {
+    private int ash;
+
     public void posneg(int a) {
+
         if (a >= 0) {
             System.out.println(a + " is a positive number.");
         } else {
@@ -76,9 +79,18 @@ class inter implements in {
         }
         System.out.println("Factorial of " + a + " is: " + fact);
     }
+
+    public inter() {
+        ash = 0;
+        System.out.println(ash);
+    }
+
+    public inter(int a) {
+        ash = a;
+        System.out.println(ash);
+    }
 }
 
-// Main class
 public class interface87 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
@@ -92,7 +104,7 @@ public class interface87 {
         obj.prime(as);
         obj.palindrom(as);
         obj.factorial(as);
-
+        inter obj2 = new inter(as);
         s.close();
     }
 }
