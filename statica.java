@@ -3,6 +3,10 @@ public class statica {
         x obj = new x();
         // x.show();
         obj.show();
+        x.test ob = new x.test();
+        ob.show();
+        x.so i = new x().new so();
+        i.show();
     }
 }
 
@@ -20,5 +24,17 @@ class x {
 
     void show() {
         System.out.println(a + "" + b);
+    }
+
+    static class test {
+        void show() {
+            System.out.println("good day");
+        }
+    }
+
+    class so {
+        void show() {
+            System.out.println("good ay");
+        }
     }
 }
