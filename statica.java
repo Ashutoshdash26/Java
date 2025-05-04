@@ -7,6 +7,7 @@ public class statica {
         ob.show();
         x.so i = new x().new so();
         i.show();
+        // x.test=obj.new test();
     }
 }
 
