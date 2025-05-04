@@ -5,10 +5,10 @@ public class String1 {
         call c = new call();
         c.fun(sum, i);
         System.out.println(c);
-        String st =new String("Hello");
+        String st = new String("Hello");
         System.out.println(st);
         System.out.println(st.charAt(4));
-
+        System.out.println(st.length());
     }
 }
 
