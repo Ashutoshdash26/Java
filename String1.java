@@ -7,6 +7,7 @@ public class String1 {
         System.out.println(c);
         String st =new String("Hello");
         System.out.println(st);
+        System.out.println(st.charAt(4));
 
     }
 }
