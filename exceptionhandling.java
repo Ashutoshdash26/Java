@@ -21,6 +21,14 @@ public class exceptionhandling {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+        int a=5;
+        int[] arr=new int[a];
+        try {
+            System.out.println(arr[6]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Invalid index: " + e.getMessage());
+        }
+        
 
     }
 }
