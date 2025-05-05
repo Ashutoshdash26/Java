@@ -1,3 +1,4 @@
+package Mypack;
 public class String1 {
     public static void main(String[] args) {
         String sum = "totslsum";
@@ -9,6 +10,10 @@ public class String1 {
         System.out.println(st);
         System.out.println(st.charAt(4));
         System.out.println(st.length());
+    }
+
+    public int add(int i, int k) {
+        return i + k;
     }
 }
 
