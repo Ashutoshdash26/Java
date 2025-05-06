@@ -7,7 +7,7 @@ public class Calculator {
         System.out.println("Welcome to the Simple Calculator!");
         System.out.println("Available operations: +, -, *, /");
 
-        // Input 
+        
         System.out.print("Enter the first number: ");
         double num1 = scanner.nextDouble();
 
