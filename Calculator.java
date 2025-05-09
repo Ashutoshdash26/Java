@@ -45,7 +45,7 @@ public class Calculator {
                 return; // Exit the program
         }
 
-        // Display 
+        
         System.out.println("Result: " + result);
 
         scanner.close();
