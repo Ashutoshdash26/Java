@@ -1,3 +1,4 @@
+import typack.outeriner87;
 import java.util.Scanner;
 public class outerpack {
 public static void main(String[] args) {
@@ -22,7 +23,10 @@ public static void main(String[] args) {
             }
         Innerouterpack mm=new  Innerouterpack();
         mm.display();
-        
+        outeriner87 ak=new outeriner87();
+        ak.dis();
+        outeriner87.pacc kk=new outeriner87().new pacc();
+        kk.dis();
             
         }
     }
