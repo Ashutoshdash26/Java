@@ -11,6 +11,11 @@ public class outeriner87 {
     public void dis(){
         System.out.println("hi");
     }
+    public void sho(String []arr){
+      for(int i=0;i<arr.length;i++){
+        System.out.println(arr[i]);
+      }
+    }
         
     }
 }

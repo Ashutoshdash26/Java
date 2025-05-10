@@ -1,7 +1,8 @@
 import typack.outeriner87;
 import java.util.Scanner;
+
 public class outerpack {
-public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter the size of array ");
         int a = s.nextInt();
@@ -15,20 +16,18 @@ public static void main(String[] args) {
             System.out.println(" the name of " + i + " is " + arr[i]);
 
         }
-        
-            class Innerouterpack {
-                void display() {
-                    System.out.println(arr[1]);
-                }
+
+        class Innerouterpack {
+            void display() {
+                System.out.println(arr[1]);
             }
-        Innerouterpack mm=new  Innerouterpack();
-        mm.display();
-        outeriner87 ak=new outeriner87();
-        ak.dis();
-        outeriner87.pacc kk=new outeriner87().new pacc();
-        kk.dis();
-            
         }
+        Innerouterpack mm = new Innerouterpack();
+        mm.display();
+        outeriner87 ak = new outeriner87();
+        ak.dis();
+        outeriner87.pacc kk = new outeriner87().new pacc();
+        kk.dis();
+        kk.sho(arr);
     }
-
-
+}
