@@ -7,7 +7,7 @@ public class outeriner87 {
     public void dis(){
         System.err.println("the packages");
     }
-    class pacc {
+    public class pacc {
     public void dis(){
         System.out.println("hi");
     }
