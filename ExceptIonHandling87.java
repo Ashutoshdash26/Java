@@ -37,7 +37,8 @@ public class ExceptIonHandling87 {
         int[] numbers = {1, 2, 3};
         int result = 10 / 0; // This will cause ArithmeticException
         System.out.println(numbers[5]); // This would cause ArrayIndexOutOfBoundsException
-        System.out.println(ms.charAt(10));
+        System.out.println(ms.charAt(10));  
+         
     } catch (ArithmeticException e) {
         System.out.println("Caught ArithmeticException: " + e.getMessage());
     } catch (ArrayIndexOutOfBoundsException e) {
