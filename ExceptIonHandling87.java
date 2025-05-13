@@ -10,11 +10,11 @@ public class ExceptIonHandling87 extends Exception {
             System.out.println("no dude too much age this is for small children ");
         }
         else{
-            System.err.println("age taken");
+            System.out.println("age taken");
         }
      } catch (Exception e) {
         // TODO: handle exception
-        System.err.println(e.getMessage());
+         System.out.println(e.getMessage());
      }
      try {
         int q=a/0;
