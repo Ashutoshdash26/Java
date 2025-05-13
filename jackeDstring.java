@@ -25,6 +25,7 @@ public class jackeDstring {
             }
         }
         for (int i = 0; i < arr.length; i++) {
+            System.out.println("   ");
             for (int j = 0; j < arr[i].length; j++) {
                 System.out.println("Entered Student name is = " + arr[i][j]);
 
