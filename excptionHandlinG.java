@@ -29,6 +29,16 @@ public class excptionHandlinG {
          catch(Exception e){
             System.out.println(e.getMessage());
          }
+
+
+         try {
+            int data = 25 / 0; // This will throw ArithmeticException
+            System.out.println(data);
+        } catch (ArithmeticException e) { // Catch the correct exception
+            System.out.println(e);
+        } finally {
+            System.out.println("finally block is always executed");
+        }
          }
         //  static void checkAge ( int age ) {
         //  if ( age < 18) {
