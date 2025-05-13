@@ -1,5 +1,8 @@
 
-public class ExceptIonHandling87 {
+public class ExceptIonHandling87 extends Exception {
+    public ExceptIonHandling87(String message) {
+        super(message);
+    }
     public static void main(String[] args){
      int a=17;
      try {
@@ -38,13 +41,27 @@ public class ExceptIonHandling87 {
         int result = 10 / 0; // This will cause ArithmeticException
         System.out.println(numbers[5]); // This would cause ArrayIndexOutOfBoundsException
         System.out.println(ms.charAt(10));  
-         
+
     } catch (ArithmeticException e) {
         System.out.println("Caught ArithmeticException: " + e.getMessage());
     } catch (ArrayIndexOutOfBoundsException e) {
         System.out.println("Caught ArrayIndexOutOfBoundsException: " + e.getMessage());
     } catch (Exception e) {
         System.out.println("Caught Exception: " + e.getMessage());
+    }
+
+   
+    try {
+        int number=-3;
+        if(number<0){
+            throw new ExceptIonHandling87("negative");
+        }
+        else{
+            System.out.println("ok");
+        }
+    } catch (ExceptIonHandling87 e) {
+        // TODO: handle exception
+        System.out.println(e.getMessage());
     }
      
     }
