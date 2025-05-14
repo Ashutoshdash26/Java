@@ -1,0 +1,2 @@
+Hello, this is a sample text written to the file!
+You can write multiple lines like this.
