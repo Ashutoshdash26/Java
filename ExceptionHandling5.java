@@ -23,6 +23,8 @@ public class ExceptionHandling5 {
         }
         catch(Exception e){
             System.out.println(e);
+        }finally{
+            System.out.println("HELLO WORLD");
         }
         System.out.println("hi");
     }
