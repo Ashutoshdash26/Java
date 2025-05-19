@@ -9,7 +9,7 @@ public class ReThrow {
             }
         }catch(Exception e){
             System.out.println(e.getMessage());
-           throw e;
+           throw new IllegalAccessException("Exp"+e);
            
         }
     }
@@ -25,5 +25,6 @@ public class ReThrow {
         }catch(Exception e){
             System.out.println(e.getMessage());
         }
+        System.out.println("hi");
     }
 }
