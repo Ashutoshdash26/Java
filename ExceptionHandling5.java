@@ -1,4 +1,13 @@
 public class ExceptionHandling5 {
+    public static int count(){
+        try {
+            return 1;
+        } catch (Exception e) {
+            return 2;
+        }finally{
+            System.out.println("function final");
+        }
+    }
     public static void main(String []args){
         try{
             int a=10/1;
@@ -30,12 +39,14 @@ public class ExceptionHandling5 {
 
         try {
             int kir=10/0;
-        } catch (NullPointerException e) {
+        } catch (Exception e) {
             System.out.println(e.getMessage());
         }finally{
             System.out.println("handle ");
         }
 
         System.out.println("gg");
+        ExceptionHandling5 on=new ExceptionHandling5();
+        on.count();
     }
 }
