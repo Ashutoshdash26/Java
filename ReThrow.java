@@ -18,7 +18,7 @@ public class ReThrow {
 
         
         ReThrow obj=new ReThrow();
-        obj.fun(20,77);
+        obj.fun(20,72);
         obj.fun(21,44);
         obj.fun(34,65);
         obj.fun(9,10 );
