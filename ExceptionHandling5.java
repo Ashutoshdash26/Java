@@ -27,5 +27,15 @@ public class ExceptionHandling5 {
             System.out.println("HELLO WORLD");
         }
         System.out.println("hi");
+
+        try {
+            int kir=10/0;
+        } catch (NullPointerException e) {
+            System.out.println(e.getMessage());
+        }finally{
+            System.out.println("handle ");
+        }
+
+        System.out.println("gg");
     }
 }
