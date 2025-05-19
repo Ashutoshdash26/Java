@@ -14,14 +14,14 @@ public class file {
                 System.out.println("File already exists.");
             }
 
-            // Writing to the file
+            
             FileWriter writer = new FileWriter(myFile);
             writer.write("Hello, this is a sample text written to the file!\n");
             writer.write("You can write multiple lines like this.\n");
             writer.close();
             System.out.println("Successfully wrote to the file.");
 
-            // Reading and printing the file content
+            
             System.out.println("\nFile content:");
             BufferedReader reader = new BufferedReader(new FileReader(myFile));
             String line;
