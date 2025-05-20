@@ -1,8 +1,10 @@
 public class ExceptionHandling5 {
     public static int count(){
         try {
+            int a=12/0;
             return 1;
         } catch (Exception e) {
+            System.out.println(e.getMessage());
             return 2;
         }finally{
             System.out.println("function final");
@@ -47,6 +49,7 @@ public class ExceptionHandling5 {
 
         System.out.println("gg");
         ExceptionHandling5 on=new ExceptionHandling5();
-        on.count();
+        int ren=on.count();
+        System.out.println(ren);
     }
 }
