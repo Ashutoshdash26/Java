@@ -1,4 +1,13 @@
 import java.util.*;
+class myexception extends Exception{
+    int detail;
+    myexception(int a){
+        detail=a;
+    } 
+    public String toString(){
+        return "my exception [ "+ detail +" ]"; 
+    }
+}
 
 public class userDefinedException {
 
@@ -8,7 +17,7 @@ public class userDefinedException {
     public userDefinedException(String title, String author) {
         this.title = title;
         this.author = author;
-       // System.out.println(title + " " + author);
+        System.out.println(title + " " + author);
     }
 
     // @Override
@@ -25,5 +34,9 @@ public class userDefinedException {
 
         // Displaying the book using toString
         System.out.println("Book details: " + b.toString());
+
+
+
+        
     }
 }
