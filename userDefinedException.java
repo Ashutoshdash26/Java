@@ -1,15 +1,25 @@
 import java.util.*;
-class myexception extends Exception{
+
+class myexception extends Exception {
     int detail;
-    myexception(int a){
-        detail=a;
-    } 
-    public String toString(){
-        return "my exception [ "+ detail +" ]"; 
+
+    myexception(int a) {
+        detail = a;
+    }
+
+    public String toString() {
+        return "my exception [ " + detail + " ]";
     }
 }
 
 public class userDefinedException {
+    static void comput(int a) throws myexception{
+        System.out.println("called compute");
+        if (a > 10) {
+            throw new myexception(a);
+        }
+        System.out.println("Normaly Exit");
+    }
 
     String title;
     String author;
@@ -34,9 +44,11 @@ public class userDefinedException {
 
         // Displaying the book using toString
         System.out.println("Book details: " + b.toString());
-
-
-
-        
+        try{
+        comput(9);
+        comput(26);
+        }catch(myexception e){
+            System.out.println("Caught "+ e);
+        }
     }
 }
