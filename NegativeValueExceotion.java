@@ -16,5 +16,12 @@ public class NegativeValueExceotion extends Exception {
             // TODO: handle exception
             System.out.println(e.getMessage());
         }
+
+        try {
+            int q=10/0;
+        } finally{
+            System.out.println("alwayse execute");
+        }
+        System.out.println("test");
     }
 }
