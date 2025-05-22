@@ -1,4 +1,3 @@
-@Override
-    // public String toString() {
-    // return "Book[title=" + title + ", author=" + author + "]";
+myexception(int a) {
+    //     detail = a;
     // }
