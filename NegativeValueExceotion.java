@@ -13,7 +13,7 @@ public class NegativeValueExceotion extends Exception {
             }
             System.out.println("positive");
         } catch (NegativeValueExceotion e) {
-            // TODO: handle exception
+            
             System.out.println(e.getMessage());
         }
 
