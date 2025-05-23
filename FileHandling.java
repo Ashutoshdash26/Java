@@ -15,7 +15,7 @@ public class FileHandling {
 
 
             Scanner s=new Scanner(System.in);
-            FileWriter writer=new FileWriter("FHandling.yxt");
+            FileWriter writer=new FileWriter("FHandling.txt");
             System.out.println("input in file : "+ file.getName());
             String st=s.nextLine();
             writer.write(st);
