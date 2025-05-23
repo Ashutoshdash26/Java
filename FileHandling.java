@@ -22,7 +22,7 @@ public class FileHandling {
             FileWriter writer=new FileWriter(file,true);
             System.out.println("input in file : "+ file.getName());
             String st=s.nextLine();
-            writer.write(st + "\n");  // ✅ Correct newline
+            writer.write(st + "\n");  
 
             writer.close();
             System.out.println("Successfully wrote to the file");
