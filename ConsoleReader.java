@@ -14,7 +14,7 @@ public class ConsoleReader {
                 }
             } while (c!='i');
         } catch (IOException e) {
-            // TODO: handle exception
+            
             System.out.println("Error  : "+ e);
         }
     }
