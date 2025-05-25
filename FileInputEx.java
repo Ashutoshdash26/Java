@@ -24,7 +24,7 @@ public class FileInputEx {
             System.out.println("hi");
             f.skip(5);
             int remaining=f.available();
-            System.out.println(remaining);
+            System.out.println("Remaning bites : "+remaining);
             while ((j = f.read()) !=-1) {
                 System.out.print((char) j);
             }
