@@ -22,6 +22,7 @@ public class FileInputEx {
             }
 
             System.out.println("hi");
+            
             f.skip(5);
             int remaining=f.available();
             System.out.println("Remaning bites : "+remaining);
