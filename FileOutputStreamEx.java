@@ -22,7 +22,12 @@ public class FileOutputStreamEx{
           f3.close();
 
           FileInputStream f=new FileInputStream("File12.txt");
-          System.out.println((char)f.read());
+          //System.out.println((char)f.read());
+          int q;
+          while((q =f.read())!=-1){
+            System.out.print((char)q);
+            
+          }
           f.close();
 
         } catch (Exception e) {
