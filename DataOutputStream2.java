@@ -10,6 +10,7 @@ public class DataOutputStream2{
             doc.writeInt(10);
             doc.writeBoolean(true);
             doc.writeUTF("Hi This is a java code");
+            doc.writeChar('a');
 
             String sm="This is ashutosh ";
             doc.writeUTF(sm);
@@ -21,7 +22,7 @@ public class DataOutputStream2{
             System.out.println(dis.readInt());
             System.out.println(dis.readBoolean());
             System.out.println(dis.readUTF());
-            System.out.println(dis.read());
+            System.out.println((char)dis.read());
             int k;
             while((k=dis.read())!=-1){
                 System.out.print((char)k);
