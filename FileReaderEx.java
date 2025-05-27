@@ -23,10 +23,11 @@ public class FileReaderEx {
 
         String sc="This is a java code for FileREader , FileWriter";
         Scanner S=new Scanner(System.in);
+        System.out.println("Write in the File : ");
         String sit=S.nextLine();
         char [] buf=sit.toCharArray();
         try {
-            FileWriter fr=new FileWriter("ex.txt",true);
+            FileWriter fr=new FileWriter("ex.txt");
             fr.write(sc+"\n");
             fr.write(sit+"\n");
             fr.close();

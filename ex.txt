@@ -1,2 +1,2 @@
-This is a java code for FileREader , FileWriterThis is a java code for FileREader , FileWriterThis is a java code for FileREader , FileWritermy name is ashutoshThis is a java code for FileREader , FileWriter
-I am ashutosh
+This is a java code for FileREader , FileWriter
+Ashutosh
