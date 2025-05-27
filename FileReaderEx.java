@@ -1,4 +1,5 @@
 import java.io.FileReader;
+import java.io.FileWriter;
 public class FileReaderEx {
     public static void main(String[] args){
         try {
@@ -14,6 +15,19 @@ public class FileReaderEx {
         } catch (Exception e) {
             // TODO: handle exception
             System.out.println("Error occered");
+            e.printStackTrace();
+        }
+
+
+
+        String sc="This is a java code for FileREader , FileWriter";
+        try {
+            FileWriter fr=new FileWriter("ex.txt");
+            fr.write(sc);
+            fr.close();
+
+        } catch (Exception e) {
+            // TODO: handle exception
             e.printStackTrace();
         }
     }
