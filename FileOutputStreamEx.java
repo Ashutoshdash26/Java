@@ -1,4 +1,5 @@
 import java.io.FileOutputStream;
+import java.io.FileInputStream;
 public class FileOutputStreamEx{
     public static void main(String[] args){
         String s="My Name is Ashutosh Dah And I like to play football and cricket ";
@@ -19,6 +20,10 @@ public class FileOutputStreamEx{
           //f3.write(b,b.length/2,b.length/4);
           f3.write(b,b.length/2,b.length/4);
           f3.close();
+
+          FileInputStream f=new FileInputStream("File12.txt");
+          System.out.println((char)f.read());
+          f.close();
 
         } catch (Exception e) {
             // TODO: handle exception
