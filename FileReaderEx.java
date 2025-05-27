@@ -27,8 +27,8 @@ public class FileReaderEx {
         char [] buf=sit.toCharArray();
         try {
             FileWriter fr=new FileWriter("ex.txt",true);
-            fr.write(sc);
-            fr.write(sit);
+            fr.write(sc+"\n");
+            fr.write(sit+"\n");
             fr.close();
 
         } catch (Exception e) {
