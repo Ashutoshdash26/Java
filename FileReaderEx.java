@@ -1,5 +1,6 @@
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.util.Scanner;
 public class FileReaderEx {
     public static void main(String[] args){
         try {
@@ -21,9 +22,13 @@ public class FileReaderEx {
 
 
         String sc="This is a java code for FileREader , FileWriter";
+        Scanner S=new Scanner(System.in);
+        String sit=S.nextLine();
+        char [] buf=sit.toCharArray();
         try {
-            FileWriter fr=new FileWriter("ex.txt");
+            FileWriter fr=new FileWriter("ex.txt",true);
             fr.write(sc);
+            fr.write(sit);
             fr.close();
 
         } catch (Exception e) {
