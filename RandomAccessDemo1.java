@@ -2,6 +2,8 @@ import java.io.RandomAccessFile;
 import java.io.IOException;
 import java.io.File;
 import java.io.FileWriter;
+import java.io.BufferedReader;
+import java.io.FileReader;
 public class RandomAccessDemo1 {
     public static void main(String[] args) throws IOException{
 
@@ -11,7 +13,7 @@ public class RandomAccessDemo1 {
                         "Java makes file handling powerful and flexible.\r\n" + //
                         "";//
          File f=new File("randomaccess1.txt");
-         FileWriter fr=new FileWriter(f);
+         FileWriter fr=new FileWriter(f,true);
          fr.write(sc);
          fr.close();
 
@@ -33,7 +35,12 @@ public class RandomAccessDemo1 {
          System.out.println(new String(File2Array));
          System.out.println(File2Array);
 
-
+        BufferedReader br=new BufferedReader(new FileReader("randomaccess1.txt"));
+        String line;
+        while ((line=br.readLine())!=null) {
+            System.out.println(line);
+        }
+        br.close();
          F1.close();
          F2.close();
     }

@@ -1,3 +1,9 @@
 This is a test file for RandomAccessFile.
 It contains sample text to demonstrate file reading.
 Java makes file handling powerful and flexible.
+This is a test file for RandomAccessFile.
+It contains sample text to demonstrate file reading.
+Java makes file handling powerful and flexible.
+This is a test file for RandomAccessFile.
+It contains sample text to demonstrate file reading.
+Java makes file handling powerful and flexible.
