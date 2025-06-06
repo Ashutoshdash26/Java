@@ -32,8 +32,8 @@ class MyRunnable implements Runnable {
     
     // public static void main(String[] args) {
     //     MyRunnable r1 = new MyRunnable();
-    //     Thread t1 = new Thread(r1);  // wrap it in Thread
-    //     t1.start();  // start the thread
+    //     Thread t1 = new Thread(r1);  
+    //     t1.start();  
         
     //     for (int i = 1; i <= 5; i++) {
     //         System.out.println("Main thread: " + i);
