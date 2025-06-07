@@ -19,6 +19,12 @@ public class MyThread extends Thread {
         t2.start();  // start the thread
         
         for (int i = 1; i <= 5; i++) {
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                // TODO: handle exception
+                System.out.println("Main Thread Interperted");
+            }
             System.out.println("Main thread 2 : " + i);
         }
     }
@@ -26,6 +32,13 @@ public class MyThread extends Thread {
 class MyRunnable implements Runnable {
     public void run() {
         for (int i = 1; i <= 5; i++) {
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                // TODO: handle exception
+                System.out.println("Runable Thread Interperted");
+            }
+            
             System.out.println("Runnable running: " + i);
         }
     }
