@@ -1,5 +1,7 @@
 import java.util.Scanner;
 public class Narr {
+           static String kv="kvvvvvvvvvvvv";
+
     public static void main(String [] args){
        Scanner s=new Scanner(System.in);
     //    System.out.println("Enter the Size of Array ");
@@ -50,6 +52,8 @@ public class Narr {
        int km=h.fun(9);
        System.out.println(km);
        h.rub();
+       h.gg();
+       System.out.println(kv +"  m");
     }
 }
 class th{
@@ -62,5 +66,8 @@ class th{
     void rub(){
         int a=10;
         System.out.println(a);
+    }
+    void gg(){
+        System.out.println(Narr.kv);
     }
 }
