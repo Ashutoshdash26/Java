@@ -17,5 +17,35 @@ public class new78 {
             System.out.print("The element are : ");
             System.out.println(ar[i]);
         }
+
+
+
+
+         System.out.print("Enter number of rows: ");
+        int rows = sc.nextInt();
+
+        // Declare jagged array
+        int[][] jagged = new int[rows][];
+
+        // For each row, ask size and fill data
+        for (int i = 0; i < rows; i++) {
+            System.out.print("Enter number of columns for row " + (i+1) + ": ");
+            int cols = sc.nextInt();
+            jagged[i] = new int[cols];
+
+            System.out.println("Enter " + cols + " elements for row " + (i+1) + ": ");
+            for (int j = 0; j < cols; j++) {
+                jagged[i][j] = sc.nextInt();
+            }
+        }
+
+        // Print the jagged array
+        System.out.println("\nJagged Array Elements:");
+        for (int i = 0; i < jagged.length; i++) {
+            for (int j = 0; j < jagged[i].length; j++) {
+                System.out.print(jagged[i][j] + " ");
+            }
+            System.out.println();
     }
+}
 }
